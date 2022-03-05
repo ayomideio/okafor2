@@ -42,7 +42,7 @@ db.mongoose
 
 // simple route
 app.get("/", (req, res) => {
-  res.json({ message: "Sammy is Live" });
+  res.json({ message: "Okafor2 is Live" });
 });
 
 

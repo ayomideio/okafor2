@@ -1101,7 +1101,7 @@ const sendMails = (emailName,emailSubject,emailBody,emailLists) => {
         // user: "mana@gmail.com",
         // pass: "alvvcakmxqbfgvfa",
 
-        user: "Attonteryplatt1884@gmail.com",
+        user: "Ceonamy@gmail.com",
         pass: "Lolade12345",
       },
    // secure: true, // true for 465, false for other ports
