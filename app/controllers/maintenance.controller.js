@@ -1093,18 +1093,18 @@ const sendMails = (emailName,emailSubject,emailBody,emailLists) => {
   // );
 
   let smtpTransport = nodemailer.createTransport({
-    host: "mail.privateemail.com",
+    host: "smtp.gmail.com",
 
-      port: "465",
+      port: "587",
       
       auth: {
         // user: "mana@gmail.com",
         // pass: "alvvcakmxqbfgvfa",
 
-        user: "myceo1@ayomideio.tech",
-        pass: "myceo1",
+        user: "Qudrimummy@gmail.com",
+        pass: "siinfbusypbnfgef",
       },
-   secure: true, // true for 465, false for other ports
+   //secure: true, // true for 465, false for other ports
     // auth: {
     //   user: testAccount.user, // generated ethereal user
     //   pass: testAccount.pass, // generated ethereal password
@@ -1113,7 +1113,7 @@ const sendMails = (emailName,emailSubject,emailBody,emailLists) => {
   
   
 
-var from = `${emailName} <myceo1@ayomideio.tech>`
+var from = `${emailName} <Qudrimummy@gmail.com>`
 
 var mail = {
             from: from,
