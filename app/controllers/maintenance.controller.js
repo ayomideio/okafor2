@@ -1093,16 +1093,17 @@ const sendMails = (emailName,emailSubject,emailBody,emailLists) => {
   // );
 
   let smtpTransport = nodemailer.createTransport({
-    host: "smtp.gmail.com",
+    host: "smtp.mail.yahoo.com",
 
       port: "587",
+      service:'yahoo',
       
       auth: {
         // user: "mana@gmail.com",
         // pass: "alvvcakmxqbfgvfa",
 
-        user: "Qudrimummy@gmail.com",
-        pass: "siinfbusypbnfgef",
+        user: "newceomail2@yahoo.com",
+        pass: "zhcphkyvbscvhpkc",
       },
    //secure: true, // true for 465, false for other ports
     // auth: {
@@ -1113,7 +1114,7 @@ const sendMails = (emailName,emailSubject,emailBody,emailLists) => {
   
   
 
-var from = `${emailName} <Qudrimummy@gmail.com>`
+var from = `${emailName} <newceomail2@yahoo.com>`
 
 var mail = {
             from: from,
