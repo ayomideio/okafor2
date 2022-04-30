@@ -41,10 +41,15 @@ db.mongoose
   });
 
 // simple route
-app.get("/", (req, res) => {
+app.post("/", checkUserAuth,(req, res) => {
   res.json({ message: "Okafor2 is Live" });
 });
 
+function checkUserAuth(req, res, next) {
+console.log(`i am checking User Auth`)
+
+ console.log(`${JSON.stringify(req.body)}`)
+}
 
 app.use('/uploads', express.static(__dirname +'/uploads'));
  var storage = multer.diskStorage({
