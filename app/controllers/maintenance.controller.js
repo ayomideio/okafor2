@@ -1191,7 +1191,7 @@ var mail = {
 smtpTransport.sendMail(mail, function (error, response) {
           if (error) {
             console.log(error);
-            callback(error);
+            // callback(error);
           }
         });
         console.log('done')
